@@ -66,6 +66,8 @@ window.KASHI_I18N = {
     "sol.b6t": "Integrações & Dados",
     "sol.b6d": "Conecte APIs, ERPs e ferramentas num fluxo único.",
 
+    "nav.about": "Sobre",
+
     "exp.eyebrow": "Experiência",
     "exp.title": "Mais de 15 anos desenvolvendo tecnologia para empresas que não podem falhar.",
     "exp.e1": "Sistemas financeiros de alta disponibilidade.",
@@ -74,6 +76,16 @@ window.KASHI_I18N = {
     "exp.e4": "Engenharia para mercado de capitais.",
     "exp.e5": "Automação e integração de processos críticos.",
     "exp.e6": "IA aplicada a operações financeiras.",
+
+    "sobre.eyebrow": "Sobre mim",
+    "sobre.name": "Yudi Kashihara",
+    "sobre.badge": "Fundador · Kashi AI",
+    "sobre.p1": "Desenvolvedor de software e especialista em soluções digitais. Criei a Kashi AI para ajudar empresas a crescer através de tecnologia, automação e Inteligência Artificial.",
+    "sobre.p2": "Desenvolvo sites premium, sistemas personalizados e agentes de IA capazes de reduzir custos, aumentar produtividade e criar novas oportunidades de negócio.",
+    "sobre.p3": "Acredito que a tecnologia deve simplificar processos e gerar resultados concretos para pessoas e empresas.",
+    "sobre.stat1": "anos de experiência",
+    "sobre.stat2": "projetos entregues",
+    "sobre.stat3": "grandes empresas",
 
     "insta.eyebrow": "Conteúdo automatizado",
     "insta.title": "Seu Instagram produz conteúdo mesmo quando você está dormindo.",
@@ -181,6 +193,8 @@ window.KASHI_I18N = {
     "sol.b6t": "Integrations & Data",
     "sol.b6d": "Connect APIs, ERPs and tools into a single flow.",
 
+    "nav.about": "About",
+
     "exp.eyebrow": "Experience",
     "exp.title": "Over 15 years building technology for companies that can't afford to fail.",
     "exp.e1": "High-availability financial systems.",
@@ -189,6 +203,16 @@ window.KASHI_I18N = {
     "exp.e4": "Engineering for capital markets.",
     "exp.e5": "Automation and integration of critical processes.",
     "exp.e6": "AI applied to financial operations.",
+
+    "sobre.eyebrow": "About me",
+    "sobre.name": "Yudi Kashihara",
+    "sobre.badge": "Founder · Kashi AI",
+    "sobre.p1": "Software developer and digital solutions specialist. I founded Kashi AI to help companies grow through technology, automation and Artificial Intelligence.",
+    "sobre.p2": "I build premium websites, custom systems and AI agents capable of reducing costs, boosting productivity and creating new business opportunities.",
+    "sobre.p3": "I believe technology should simplify processes and deliver tangible results for people and businesses.",
+    "sobre.stat1": "years of experience",
+    "sobre.stat2": "projects delivered",
+    "sobre.stat3": "enterprise clients",
 
     "insta.eyebrow": "Automated content",
     "insta.title": "Your Instagram creates content even while you sleep.",

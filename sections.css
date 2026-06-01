@@ -574,3 +574,101 @@
 #tweaks label { display: block; color: var(--text-2); margin-bottom: 8px; }
 #tweaks .val { color: var(--cyan); float: right; }
 #tweaks input[type=range] { width: 100%; accent-color: var(--purple); }
+
+/* ---------- Sobre ---------- */
+#sobre { padding-block: clamp(80px, 12vh, 140px); }
+
+.sobre-grid {
+  display: grid;
+  grid-template-columns: 1fr 1.15fr;
+  gap: clamp(40px, 6vw, 96px);
+  align-items: center;
+}
+
+.sobre-visual { position: relative; }
+
+.sobre-photo-wrap {
+  position: relative;
+  border-radius: var(--radius);
+  overflow: hidden;
+  max-width: 460px;
+}
+
+.sobre-photo {
+  width: 100%;
+  display: block;
+  object-fit: cover;
+  aspect-ratio: 4 / 5;
+  border-radius: var(--radius);
+  border: 1px solid var(--border-soft);
+}
+
+.sobre-photo-glow {
+  position: absolute; inset: 0;
+  background: linear-gradient(180deg, transparent 40%, rgba(5,5,7,0.7) 100%);
+  pointer-events: none;
+  z-index: 1;
+}
+
+.sobre-badge {
+  position: absolute;
+  bottom: 20px; left: 50%; transform: translateX(-50%);
+  z-index: 2;
+  display: inline-flex; align-items: center; gap: 9px;
+  padding: 9px 20px;
+  border-radius: var(--radius-pill);
+  background: rgba(10,8,18,0.78);
+  border: 1px solid var(--border);
+  backdrop-filter: blur(14px);
+  font-size: 0.82rem; font-weight: 600; color: var(--text-1);
+  white-space: nowrap; letter-spacing: 0.01em;
+}
+
+.sobre-pulse {
+  width: 7px; height: 7px; border-radius: 50%; flex: none;
+  background: var(--soft-purple);
+  box-shadow: 0 0 0 0 rgba(168,85,247,0.6);
+  animation: sobrePulse 2s infinite;
+}
+
+@keyframes sobrePulse {
+  0%   { box-shadow: 0 0 0 0   rgba(168,85,247,0.6); }
+  70%  { box-shadow: 0 0 0 8px rgba(168,85,247,0); }
+  100% { box-shadow: 0 0 0 0   rgba(168,85,247,0); }
+}
+
+.sobre-copy .sobre-p {
+  margin-top: 18px;
+  color: var(--text-2);
+  font-size: 0.97rem;
+  line-height: 1.75;
+}
+
+.sobre-stats {
+  display: flex;
+  gap: clamp(20px, 4vw, 40px);
+  margin-top: 40px;
+  padding-top: 28px;
+  border-top: 1px solid var(--border-soft);
+  flex-wrap: wrap;
+}
+
+.sobre-stat { display: flex; flex-direction: column; gap: 4px; }
+
+.sobre-stat-value {
+  font-size: clamp(1.8rem, 3.5vw, 2.4rem);
+  font-weight: 800;
+  letter-spacing: -0.04em;
+  line-height: 1;
+  background: var(--grad-text);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.sobre-stat-label { font-size: 0.85rem; color: var(--text-3); }
+
+@media (max-width: 860px) {
+  .sobre-grid { grid-template-columns: 1fr; }
+  .sobre-photo-wrap { max-width: 380px; margin-inline: auto; }
+}
